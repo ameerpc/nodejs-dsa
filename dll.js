@@ -68,14 +68,14 @@ class doubleLinkedList {
 
 function main() {
     let dll = new doubleLinkedList();
-    dll.add("ameer");
-    dll.add("afsal");
-    dll.add("hamza");
-    dll.add("rabiya");
+    dll.add("ele1");
+    dll.add("ele2");
+    dll.add("ele3");
+    dll.add("ele4");
 
     dll.traverse((val) => {console.log(val);});
 
-    dll.remove("ameer");
+    dll.remove("ele1");
     dll.traverse((val) => {console.log(val);});
 }
 
